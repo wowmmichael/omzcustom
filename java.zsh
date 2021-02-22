@@ -7,3 +7,7 @@ alias java-home=java_home_get
 function java_home_get() {
     /usr/libexec/java_home -v $@
 }
+
+function java_switch_to_8() {
+    export JAVA_HOME=$(java_home_get 1.8.0_162)
+}

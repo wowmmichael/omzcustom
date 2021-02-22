@@ -17,4 +17,3 @@
 # Miscellaneous 
 
 `realpath` for printing absolute path
-
