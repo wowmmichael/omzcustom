@@ -1,8 +1,10 @@
 GOPATH="${HOME}/go"
 
-# find go root with `GOROOT="$(brew --prefix golang)/libexec"`
 
-GOROOT="/usr/local/opt/go/libexec"
+# ref: https://golang.org/doc/manage-install
+# set proper GOROOT with `go1.16.3 env GOROOT`
+
+GOROOT="/Users/stephenwan/sdk/go1.16.3"
 GOPRIVATE="github.skyscannertools.net"
 
 test -d "${GOPATH}" || mkdir "${GOPATH}"
