@@ -11,7 +11,7 @@ _aws_assume_role() {
 
   if [[ -z "${_AWS_ACCESS_KEY_ID}" ]]; then
     echo "no key found, exit(1)!"
-    exit 1
+    return 1
   fi
 
   echo "Writing keys to profile: $_assume_role_session_name, now you can use aws_with_assume_role that automatically uses the profile"
