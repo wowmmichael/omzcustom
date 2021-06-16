@@ -5,6 +5,7 @@ cat <<EOF
 2. ofd open the current directory in Finder;
 3. pfs print the selections in Finder.
 4. export variable from dotenv file: 'export \$(cat .env | xargs)'
+5. print absolute path with 'realpath'
 EOF
 
 }
