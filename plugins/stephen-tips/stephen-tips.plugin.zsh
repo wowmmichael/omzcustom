@@ -35,3 +35,17 @@ TBD
 EOF
 
 }
+
+tips-gpg() {
+
+cat <<EOF
+
+1. use 'pkill -9 gpg-agent' if gpg suddenly fails to work
+2. run easy check with 'echo "test" | gpg --clearsign'
+
+EOF
+
+# references:
+# 1. https://unix.stackexchange.com/questions/382279/gpg-hangs-when-private-keys-are-accessed
+# 2. https://gist.github.com/koshatul/2427643668d4e89c0086f297f9ed2130 
+}
