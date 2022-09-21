@@ -20,6 +20,9 @@ cat <<EOF
 4. search in specific file types: checkout 'rg -t ', 'rg --type-list', 'rg --add-type'; there is also the 'include' directive;
 5. use '-F' for fixed string matching instead of pattern matching
 6. use '-o' to output the matching part only; handy to work together with replacement '-r' 
+   example:
+     extract the pod list from the kibana link
+        pbpaste | rg -P -o -r '$1' -e '(quote-cahce-proxy-celss-(?!applog)[\w-]+)'
 
 EOF
 
