@@ -1,0 +1,1 @@
+export STEPHEN_ICLOUD_OBSIDIAN="/Users/StephenWan/Library/Mobile Documents/iCloud~md~obsidian/Documents/"
