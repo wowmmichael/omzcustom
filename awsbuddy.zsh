@@ -1,4 +1,3 @@
-
 alias aws_assume_role=_aws_assume_role
 alias aws_with_assumed_role=_aws_with_assumed_role
 
