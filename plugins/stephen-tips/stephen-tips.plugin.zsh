@@ -52,3 +52,31 @@ EOF
 # 1. https://unix.stackexchange.com/questions/382279/gpg-hangs-when-private-keys-are-accessed
 # 2. https://gist.github.com/koshatul/2427643668d4e89c0086f297f9ed2130 
 }
+
+
+tips-github() {
+
+cat <<EOF
+
+1. search code in files 'path:*.js'
+
+
+EOF
+
+}
+
+
+
+tips-chrome() {
+
+cat <<EOF
+
+1. reopen recently closed tab: ⌘ + ⇧ + T
+2. search in tab: ⌘ + ⇧ + A
+
+
+
+
+EOF
+
+}

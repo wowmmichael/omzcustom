@@ -4,6 +4,7 @@ VSCODEBIN="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 
 # openssl 1.1 installed with brew on 2020/08/02
-OPENSSLBIN="/usr/local/opt/openssl@1.1/bin"    
+OPENSSLBIN="/usr/local/opt/openssl@1.1/bin" 
+CURLBIN="/opt/homebrew/opt/curl/bin"
 
-export PATH=$OPENSSLBIN:$JETBRAIN:$VSCODEBIN:$PATH
+export PATH=$OPENSSLBIN:$JETBRAIN:$VSCODEBIN:$CURLBIN:$PATH
